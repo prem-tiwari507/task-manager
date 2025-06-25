@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/backend/task-manager-backend/venv" />
+      <excludeFolder url="file://$MODULE_DIR$/backend/task-manager-backend/venv/Include" />
+      <excludeFolder url="file://$MODULE_DIR$/backend/task-manager-backend/venv/Lib" />
+      <excludeFolder url="file://$MODULE_DIR$/backend/task-manager-backend/venv/Scripts" />
+      <excludeFolder url="file://$MODULE_DIR$/ui/task-manager-ui/.angular/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/ui/task-manager-ui/node_modules" />
+    </content>
+    <orderEntry type="jdk" jdkName="Python 3.11" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
