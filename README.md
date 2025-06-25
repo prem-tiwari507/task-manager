@@ -1,2 +1,2 @@
 # task-manager
-Task manger application that support CRUD operations
+Task manger application that supports CRUD operations.
