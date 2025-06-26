@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e6d8755-5a8a-4187-8cea-e928b2488cd3" name="Changes" comment="DB configuration, dm models, enum creation">
-      <change afterPath="$PROJECT_DIR$/backend/task-manager-backend/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/task-manager-backend/models/__init__.py" afterDir="false" />
+    <list default="true" id="0e6d8755-5a8a-4187-8cea-e928b2488cd3" name="Changes" comment="All task list (Get), create task (Post) endpoint implementation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/task-manager-backend/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/task-manager-backend/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/task-manager-backend/models/task_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/task-manager-backend/models/task_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/task-manager-backend/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/task-manager-backend/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_details.db" beforeDir="false" afterPath="$PROJECT_DIR$/task_details.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +89,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750911088644</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="All task list (Get), create task (Post) endpoint implementation">
+      <option name="closed" value="true" />
+      <created>1750922568890</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1750922568890</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,6 +114,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="UI &amp; backend project structure push" />
     <MESSAGE value="DB configuration, dm models, enum creation" />
-    <option name="LAST_COMMIT_MESSAGE" value="DB configuration, dm models, enum creation" />
+    <MESSAGE value="All task list (Get), create task (Post) endpoint implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="All task list (Get), create task (Post) endpoint implementation" />
   </component>
 </project>
