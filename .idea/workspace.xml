@@ -4,15 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e6d8755-5a8a-4187-8cea-e928b2488cd3" name="Changes" comment="CORS handling">
+    <list default="true" id="0e6d8755-5a8a-4187-8cea-e928b2488cd3" name="Changes" comment="UI - list tasks changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/task-manager-backend/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/task-manager-backend/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/task-manager-ui/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ui/task-manager-ui/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/task-manager-ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ui/task-manager-ui/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_details.db" beforeDir="false" afterPath="$PROJECT_DIR$/task_details.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/task-manager-ui/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ui/task-manager-ui/src/app/app.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui/task-manager-ui/src/app/task-dashboard/task-dashboard.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ui/task-manager-ui/src/app/task-dashboard/task-dashboard.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui/task-manager-ui/src/app/task-dashboard/task-dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/ui/task-manager-ui/src/app/task-dashboard/task-dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/task-manager-ui/src/app/task-popup/task-popup.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ui/task-manager-ui/src/app/task-popup/task-popup.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/task-manager-ui/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ui/task-manager-ui/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/task-manager-ui/src/app/task-popup/task-popup.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ui/task-manager-ui/src/app/task-popup/task-popup.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/task-manager-ui/src/app/task-popup/task-popup.html" beforeDir="false" afterPath="$PROJECT_DIR$/ui/task-manager-ui/src/app/task-popup/task-popup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/task-manager-ui/src/app/task.services.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ui/task-manager-ui/src/app/task.services.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +156,23 @@
       <option name="project" value="LOCAL" />
       <updated>1750934657127</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="CORS handling">
+      <option name="closed" value="true" />
+      <created>1750934924282</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1750934924282</updated>
+    </task>
+    <task id="LOCAL-00011" summary="UI - list tasks changes">
+      <option name="closed" value="true" />
+      <created>1750934956891</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1750934956891</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,6 +196,7 @@
     <MESSAGE value="added angular environments - updated." />
     <MESSAGE value="UI changes to fetch  the tasks and list" />
     <MESSAGE value="CORS handling" />
-    <option name="LAST_COMMIT_MESSAGE" value="CORS handling" />
+    <MESSAGE value="UI - list tasks changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="UI - list tasks changes" />
   </component>
 </project>
