@@ -21,10 +21,10 @@ export class TaskDashboard implements OnInit {
   constructor(private taskService: TaskActions) {}
 
   ngOnInit(): void {
-    this.fetchTasks();
+    this.getAllTasks();
   }
 
-  fetchTasks(): void {
+  getAllTasks(): void {
     this.loading = true;
     this.taskService.getTasks().subscribe({
       next: (tasks) => {
