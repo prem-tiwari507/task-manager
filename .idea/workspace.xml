@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e6d8755-5a8a-4187-8cea-e928b2488cd3" name="Changes" comment="" />
+    <list default="true" id="0e6d8755-5a8a-4187-8cea-e928b2488cd3" name="Changes" comment="UI &amp; backend project structure push">
+      <change afterPath="$PROJECT_DIR$/backend/task-manager-backend/core/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/task-manager-backend/core/database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/task-manager-backend/models/task_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/task-manager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/task-manager.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "prem-tiwari507"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/prem-tiwari507/task-manager.git",
+    "accountId": "47c6dfb0-d552-4d79-b5bd-63a5f0830b49"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -56,6 +74,15 @@
       <option name="presentableId" value="Default" />
       <updated>1750851607086</updated>
     </task>
+    <task id="LOCAL-00001" summary="UI &amp; backend project structure push">
+      <option name="closed" value="true" />
+      <created>1750859285852</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1750859285852</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -68,5 +95,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="UI &amp; backend project structure push" />
+    <option name="LAST_COMMIT_MESSAGE" value="UI &amp; backend project structure push" />
   </component>
 </project>
