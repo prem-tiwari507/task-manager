@@ -9,9 +9,13 @@ SQLite - DB
 
 Developer - 
 1. Clone the repo.
-2. Active python viturla env - venv\Scripts\activate
+2. Active python vitural env - venv\Scripts\activate
 3. Install backend dependencies using reqiirement.txt
 4. Install angular dependencies - npm install
+
+Additional helper commands - 
+ uvicorn backend.task-manager-backend.main:app --reload
+ ng serve
    
 Backend API - 
 ![image](https://github.com/user-attachments/assets/59515c40-7a30-4d87-bfff-2313aeb06181)
