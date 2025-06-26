@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e6d8755-5a8a-4187-8cea-e928b2488cd3" name="Changes" comment="UI &amp; backend project structure push">
-      <change afterPath="$PROJECT_DIR$/backend/task-manager-backend/core/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/task-manager-backend/core/database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/task-manager-backend/models/task_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/task-manager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/task-manager.iml" afterDir="false" />
+    <list default="true" id="0e6d8755-5a8a-4187-8cea-e928b2488cd3" name="Changes" comment="DB configuration, dm models, enum creation">
+      <change afterPath="$PROJECT_DIR$/backend/task-manager-backend/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/task-manager-backend/models/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/task-manager-backend/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/task-manager-backend/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/task-manager-backend/models/task_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/task-manager-backend/models/task_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/task-manager-backend/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/task-manager-backend/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +51,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.task_model.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -82,7 +84,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750859285852</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="DB configuration, dm models, enum creation">
+      <option name="closed" value="true" />
+      <created>1750911088644</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1750911088644</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,6 +108,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="UI &amp; backend project structure push" />
-    <option name="LAST_COMMIT_MESSAGE" value="UI &amp; backend project structure push" />
+    <MESSAGE value="DB configuration, dm models, enum creation" />
+    <option name="LAST_COMMIT_MESSAGE" value="DB configuration, dm models, enum creation" />
   </component>
 </project>

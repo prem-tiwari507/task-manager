@@ -1,15 +1,15 @@
-from sqlalchemy import String, Column, Enum, DateTime
+from sqlalchemy import String, Column, Integer, Enum, DateTime
 from sqlalchemy.sql import func
-import enum
 from ..core.database import Base
-
-class TaskStatus(Enum.enum):
+import enum
+class TaskStatus(enum.Enum):
     pending = 'pending'
     completed = 'completed'
 
 class Task(Base):
     __tablename__ = "task_details"
-    id = Column(String, primary_key=True, index=True)
+    # Considered ID column as Integer to support autoincrement though as per instructions (String)
+    id = Column(Integer, primary_key=True, index=True, autoincrement=True)
     title = Column(String, nullable=False)
     description = Column(String, nullable=True)
     status = Column(Enum(TaskStatus), default=TaskStatus.pending, nullable=False)
