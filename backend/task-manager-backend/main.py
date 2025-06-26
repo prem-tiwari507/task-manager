@@ -7,10 +7,17 @@ from sqlalchemy.orm import Session
 from datetime import datetime
 from .core.database import get_db, engine, Base
 from .models.task_model import Task, TaskStatus
-
+from fastapi.middleware.cors import CORSMiddleware
 Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
+
+#For PROD don't allow all
+app.add_middleware(CORSMiddleware,
+allow_origins = ["*"],
+allow_credentials = True,
+allow_methods = ["*"],
+allow_headers = ["*"])
 
 class TaskList(BaseModel):
     id: int
@@ -64,3 +71,13 @@ def update_task(task_id: int, task_data: TaskUpdate, db: Session = Depends(get_d
     db.commit()
     db.refresh(task)
     return task
+
+@app.delete("/tasks/{task_id}", status_code=status.HTTP_204_NO_CONTENT)
+def delete_task(task_id: int, db: Session = Depends(get_db)):
+    db_task = db.query(Task).filter(Task.id == task_id).first()
+    if not db_task:
+        raise HTTPException(status_code=404, detail="Task not found")
+
+    db.delete(db_task)
+    db.commit()
+    return

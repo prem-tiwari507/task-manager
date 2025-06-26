@@ -1,0 +1,27 @@
+<h2 mat-dialog-title>{{ data ? 'Update Task' : 'Add Task' }}</h2>
+
+<form [formGroup]="taskForm" (ngSubmit)="onSubmit()">
+  <mat-form-field appearance="fill" style="width: 100%;">
+    <mat-label>Title</mat-label>
+    <input matInput formControlName="title" />
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="width: 100%;">
+    <mat-label>Description</mat-label>
+    <input matInput formControlName="description" />
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" style="width: 100%;">
+    <mat-label>Status</mat-label>
+    <mat-select formControlName="status">
+      <mat-option value="pending">Pending</mat-option>
+      <mat-option value="completed">Completed</mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <div style="text-align: right;">
+    <button mat-raised-button color="primary" type="submit" [disabled]="loading">
+      {{ loading ? 'Saving...' : (data ? 'Update Task' : 'Save Task') }}
+    </button>
+  </div>
+</form>
