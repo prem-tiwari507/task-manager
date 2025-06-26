@@ -1,6 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 
-import { TaskActions } from './task-actions';
+import { TaskActions } from './task.services';
 
 describe('TaskActions', () => {
   let service: TaskActions;
